@@ -10,7 +10,7 @@ public class VilleTest {
     @Test
     public void name() throws Exception {
         String data = "1\t75\tParis\t2181371\n" +
-                "2\t13\tMarseille\t1839043\n" +
+                "2\t13\tMarseille\t3839043\n" +
                 "3\t69\tLyon\t472305\n" +
                 "4\t31\tToulouse\t437715\n" +
                 "5\t06\tNice\t347060\n" +
