@@ -44,8 +44,8 @@ public class VilleTest {
         HashMap<String, Integer> map = new HashMap<>();
         map.put("A", 1);
         map.put("B", 1);
-        map.put("C", 1);
-        map.put("D", 1);
+        map.put("C", 9);
+        map.put("D", 14);
         System.out.printf("%s: %4d%n", "A", map.get("A"));
         System.out.printf("%s: %4d%n", "B", map.get("B"));
         System.out.printf("%s: %4d%n", "C", 9);
