@@ -51,8 +51,9 @@ public class VilleTest {
 
             String column = columns[3];
 
-            if (column > 1_000_000)
-            System.out.println("A");
+            if (column > 1_000_000) {
+                System.out.println("A");
+            }
         }
 
         HashMap<String, Integer> map = new HashMap<>();
