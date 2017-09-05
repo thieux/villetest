@@ -42,7 +42,7 @@ public class VilleTest {
 
     private void printCityClasses(String data) {
         HashMap<String, Integer> map = new HashMap<>();
-        map.put()
+        map.put("A", 1);
         System.out.printf("%s: %4d%n", "A", map.get("A"));
         System.out.printf("%s: %4d%n", "B", 1);
         System.out.printf("%s: %4d%n", "C", 9);
