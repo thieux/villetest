@@ -46,10 +46,12 @@ public class VilleTest {
         String[] split = data.split("\n");
         System.out.println(Arrays.toString(split));
 
-        
-
+        for (String s : split) {
         String[] split1 = split[0].split("\t");
         System.out.println(Arrays.toString(split1));
+
+        }
+
 
         HashMap<String, Integer> map = new HashMap<>();
         map.put("A", 1);
