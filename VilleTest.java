@@ -47,7 +47,7 @@ public class VilleTest {
         System.out.println(Arrays.toString(split));
 
         String[] split1 = split[0].split("\t");
-        System.out.println();
+        System.out.println(Arrays.toString(split1));
 
         HashMap<String, Integer> map = new HashMap<>();
         map.put("A", 1);
