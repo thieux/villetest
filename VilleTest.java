@@ -43,7 +43,6 @@ public class VilleTest {
 
     private void printCityClasses(String data) {
         String[] split = data.split("\n");
-        System.out.println(Arrays.toString(split));
         HashMap<String, Integer> map = new HashMap<>();
         for (String s : split) {
             String[] columns = s.split("\t");
