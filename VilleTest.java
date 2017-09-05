@@ -50,6 +50,8 @@ public class VilleTest {
         int countB = 0;
         int countC = 0;
         int countD = 0;
+        HashMap<String, Integer> map = new HashMap<>();
+
         for (String s : split) {
             String[] columns = s.split("\t");
 
