@@ -66,8 +66,9 @@ public class VilleTest {
                 Integer a = map.getOrDefault(key, 0);
                 map.put(key, a + 1);
             } else if (Integer.parseInt(column) > 100_000) {
-                Integer a = map.getOrDefault("D", 0);
-                map.put("D", a + 1);
+                String key = "D";
+                Integer a = map.getOrDefault(key, 0);
+                map.put(key, a + 1);
             }
         }
 
