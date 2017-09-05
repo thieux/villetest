@@ -51,7 +51,6 @@ public class VilleTest {
             System.out.println(Arrays.toString(split1));
         }
 
-
         HashMap<String, Integer> map = new HashMap<>();
         map.put("A", 1);
         map.put("B", 1);
