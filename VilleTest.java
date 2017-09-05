@@ -49,7 +49,8 @@ public class VilleTest {
         for (String s : split) {
             String[] columns = s.split("\t");
 
-            columns[]
+            String column = columns[3];
+            System.out.println(column);
         }
 
         HashMap<String, Integer> map = new HashMap<>();
