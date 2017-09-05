@@ -62,8 +62,8 @@ public class VilleTest {
             } else if (Integer.parseInt(column) > 200_000) {
                 countC++;
                 System.out.println("C");
-                countD++;
             } else if (Integer.parseInt(column) > 100_000) {
+                countD++;
                 System.out.println("D");
             }
         }
