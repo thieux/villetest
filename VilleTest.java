@@ -72,7 +72,7 @@ public class VilleTest {
         map.put("A", countA);
         map.put("B", countB);
         map.put("C", countC);
-        map.put("D", 14);
+        map.put("D", countD);
 
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.printf("%s: %4d%n", entry.getKey(), map.get(entry.getKey()));
