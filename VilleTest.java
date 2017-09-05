@@ -32,5 +32,10 @@ public class VilleTest {
                 "25\t974\tSaint-Denis\t138314\n";
 
         System.out.println(data);
+
+        System.out.println("A: 1\n" +
+                "B: 1\n" +
+                "C: 9\n" +
+                "D: 14");
     }
 }
