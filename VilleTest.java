@@ -42,7 +42,8 @@ public class VilleTest {
 
     private void printCityClasses(String data) {
 
-        data.split("\n")
+        String[] split = data.split("\n");
+        System.out.println(split);
 
         HashMap<String, Integer> map = new HashMap<>();
         map.put("A", 1);
