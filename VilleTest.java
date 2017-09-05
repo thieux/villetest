@@ -53,7 +53,6 @@ public class VilleTest {
             map.put(key, a + 1);
         }
 
-
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.printf("%s: %4d%n", entry.getKey(), map.get(entry.getKey()));
         }
