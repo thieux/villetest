@@ -42,7 +42,7 @@ public class VilleTest {
         System.out.printf("%s: %4d%n", "A", 1);
         System.out.printf("%s: %4d%n", "B", 1);
         System.out.printf("%s: %4d%n", "C", 9);
-        System.out.printf("%s: %4d%n", "B", 1);
+        System.out.printf("%s: %4d%n", "B", 14);
         System.out.println("C: 9");
         System.out.println("D: 14");
     }
