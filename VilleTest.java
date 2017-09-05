@@ -58,7 +58,6 @@ public class VilleTest {
             if (Integer.parseInt(column) > 1_000_000) {
                 Integer a = map.get("A");
                 if (a != null) {
-
                 } else {
                     a=0;
                 }
