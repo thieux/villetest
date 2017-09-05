@@ -46,7 +46,7 @@ public class VilleTest {
         String[] split = data.split("\n");
         System.out.println(Arrays.toString(split));
 
-        int count=0
+        int count=0;
         for (String s : split) {
             String[] columns = s.split("\t");
 
