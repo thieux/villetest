@@ -50,7 +50,7 @@ public class VilleTest {
             String[] columns = s.split("\t");
 
             String column = columns[3];
-            System.out.println(column);
+            System.out.println("A");
         }
 
         HashMap<String, Integer> map = new HashMap<>();
