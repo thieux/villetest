@@ -50,6 +50,8 @@ public class VilleTest {
             String[] columns = s.split("\t");
 
             String column = columns[3];
+
+            if (column)
             System.out.println("A");
         }
 
