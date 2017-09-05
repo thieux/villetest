@@ -2,6 +2,8 @@ package fr.arolla.java8esgi.partiel;
 
 import org.junit.Test;
 
+import java.util.HashMap;
+
 public class VilleTest {
     @Test
     public void name() throws Exception {
@@ -39,6 +41,7 @@ public class VilleTest {
     }
 
     private void printCityClasses(String data) {
+        HashMap<String, Integer> map;
         System.out.printf("%s: %4d%n", "A", map.get("A"));
         System.out.printf("%s: %4d%n", "B", 1);
         System.out.printf("%s: %4d%n", "C", 9);
