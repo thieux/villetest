@@ -59,7 +59,8 @@ public class VilleTest {
                 Integer a = map.getOrDefault("A", 0);
                 map.put("A", a + 1);
             } else if (Integer.parseInt(column) > 500_000) {
-                countB++;
+                Integer a = map.getOrDefault("A", 0);
+                map.put("A", a + 1);
             } else if (Integer.parseInt(column) > 200_000) {
                 countC++;
             } else if (Integer.parseInt(column) > 100_000) {
