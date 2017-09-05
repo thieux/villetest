@@ -46,7 +46,6 @@ public class VilleTest {
         String[] split = data.split("\n");
         System.out.println(Arrays.toString(split));
 
-        int countC = 0;
         int countD = 0;
         HashMap<String, Integer> map = new HashMap<>();
         for (String s : split) {
