@@ -64,7 +64,7 @@ public class VilleTest {
         }
 
         HashMap<String, Integer> map = new HashMap<>();
-        map.put("A", 1);
+        map.put("A", countA);
         map.put("B", 1);
         map.put("C", 9);
         map.put("D", 14);
