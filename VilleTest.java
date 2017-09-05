@@ -39,7 +39,8 @@ public class VilleTest {
     }
 
     private void printCityClasses(String data) {
-        System.out.printf("%s: %4d%n", "A", 1);
+        int i = 1;
+        System.out.printf("%s: %4d%n", "A", i);
         System.out.printf("%s: %4d%n", "B", 1);
         System.out.printf("%s: %4d%n", "C", 9);
         System.out.printf("%s: %4d%n", "D", 14);
