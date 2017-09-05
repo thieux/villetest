@@ -39,9 +39,6 @@ public class VilleTest {
     }
 
     private void printCityClasses(String data) {
-        System.out.println("A: 1\n" +
-                "B: 1\n" +
-                "C: 9\n" +
-                "D: 14");
+        System.out.println("A: 1\nB: 1\nC: 9\nD: 14");
     }
 }
