@@ -47,8 +47,8 @@ public class VilleTest {
         System.out.println(Arrays.toString(split));
 
         for (String s : split) {
-        String[] split1 = s.split("\t");
-        System.out.println(Arrays.toString(split1));
+            String[] split1 = s.split("\t");
+            System.out.println(Arrays.toString(split1));
 
         }
 
