@@ -51,7 +51,7 @@ public class VilleTest {
 
             String column = columns[3];
 
-            if (column)
+            if (column > 1_000_000)
             System.out.println("A");
         }
 
