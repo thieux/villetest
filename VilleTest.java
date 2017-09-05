@@ -67,7 +67,6 @@ public class VilleTest {
             }
         }
 
-        map.put("A", countA);
         map.put("B", countB);
         map.put("C", countC);
         map.put("D", countD);
