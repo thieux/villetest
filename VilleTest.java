@@ -49,9 +49,9 @@ public class VilleTest {
         map.put("D", 14);
 
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            
-        }
+
         System.out.printf("%s: %4d%n", "A", map.get("A"));
+        }
         System.out.printf("%s: %4d%n", "B", map.get("B"));
         System.out.printf("%s: %4d%n", "C", 9);
         System.out.printf("%s: %4d%n", "D", 14);
