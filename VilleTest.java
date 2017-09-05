@@ -52,18 +52,7 @@ public class VilleTest {
 
             String column = columns[3];
 
-            String key;
-            if (Integer.parseInt(column) > 1_000_000) {
-                key = "A";
-            } else if (Integer.parseInt(column) > 500_000) {
-                key = "B";
-            } else if (Integer.parseInt(column) > 200_000) {
-                key = "C";
-            } else if (Integer.parseInt(column) > 100_000) {
-                key = "D";
-            } else {
-                key = "E";
-            }
+            String key = getCityClass(column);
             Integer a = map.getOrDefault(key, 0);
             map.put(key, a + 1);
         }
@@ -72,5 +61,21 @@ public class VilleTest {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.printf("%s: %4d%n", entry.getKey(), map.get(entry.getKey()));
         }
+    }
+
+    private String getCityClass(String column) {
+        String key;
+        if (Integer.parseInt(column) > 1_000_000) {
+            key = "A";
+        } else if (Integer.parseInt(column) > 500_000) {
+            key = "B";
+        } else if (Integer.parseInt(column) > 200_000) {
+            key = "C";
+        } else if (Integer.parseInt(column) > 100_000) {
+            key = "D";
+        } else {
+            key = "E";
+        }
+        return key;
     }
 }
