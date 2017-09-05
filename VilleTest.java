@@ -56,7 +56,7 @@ public class VilleTest {
             String column = columns[3];
 
             if (Integer.parseInt(column) > 1_000_000) {
-                
+                map.put()
             } else if (Integer.parseInt(column) > 500_000) {
                 countB++;
             } else if (Integer.parseInt(column) > 200_000) {
