@@ -71,7 +71,7 @@ public class VilleTest {
         HashMap<String, Integer> map = new HashMap<>();
         map.put("A", countA);
         map.put("B", countB);
-        map.put("C", 9);
+        map.put("C", countC);
         map.put("D", 14);
 
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
