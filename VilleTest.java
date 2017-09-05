@@ -17,5 +17,18 @@ public class VilleTest {
                 "10\t59\tLille\t226014\n" +
                 "11\t35\tRennes\t209613\n" +
                 "12\t51\tReims\t183837\n" +
+                "13\t76\tLe Havre\t182580\n" +
+                "14\t42\tSaint-Étienne\t177480\n" +
+                "15\t83\tToulon\t167816\n" +
+                "16\t38\tGrenoble\t156107\n" +
+                "17\t49\tAngers\t152337\n" +
+                "18\t21\tDijon\t151504\n" +
+                "19\t29\tBrest\t144548\n" +
+                "20\t72\tLe Mans\t144016\n" +
+                "21\t30\tNîmes\t144092\n" +
+                "22\t13\tAix-en-Provence\t142534\n" +
+                "23\t63\tClermont-Ferrand\t138992\n" +
+                "24\t37\tTours\t136942\n" +
+                "25\t974\tSaint-Denis\t138314\n";
     }
 }
