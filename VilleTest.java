@@ -49,7 +49,7 @@ public class VilleTest {
         int countA = 0;
         int countB = 0;
         int countC = 0;
-        int countC = 0;
+        int countD = 0;
         for (String s : split) {
             String[] columns = s.split("\t");
 
