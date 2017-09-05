@@ -57,17 +57,13 @@ public class VilleTest {
                 key = "A";
             } else if (Integer.parseInt(column) > 500_000) {
                 key = "B";
-                Integer a = map.getOrDefault(key, 0);
-                map.put(key, a + 1);
             } else if (Integer.parseInt(column) > 200_000) {
                 key = "C";
-                Integer a = map.getOrDefault(key, 0);
-                map.put(key, a + 1);
             } else if (Integer.parseInt(column) > 100_000) {
                 key = "D";
-                Integer a = map.getOrDefault(key, 0);
-                map.put(key, a + 1);
             }
+            Integer a = map.getOrDefault(key, 0);
+            map.put(key, a + 1);
         }
 
 
