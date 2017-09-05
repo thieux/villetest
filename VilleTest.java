@@ -56,7 +56,7 @@ public class VilleTest {
             String column = columns[3];
 
             if (Integer.parseInt(column) > 1_000_000) {
-                Integer a = map.get("A");
+                Integer a = map.getOrDefault("A");
                 if (a == null) {
                     a = 0;
                 }
