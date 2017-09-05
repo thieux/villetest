@@ -56,7 +56,7 @@ public class VilleTest {
             } else if (Integer.parseInt(column) > 500_000) {
                 System.out.println("B");
             }else if (Integer.parseInt(column) > 200_000) {
-                System.out.println("B");
+                System.out.println("C");
             }
         }
 
