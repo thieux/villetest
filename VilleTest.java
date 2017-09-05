@@ -3,6 +3,7 @@ package fr.arolla.java8esgi.partiel;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class VilleTest {
     @Test
@@ -47,7 +48,9 @@ public class VilleTest {
         map.put("C", 9);
         map.put("D", 14);
 
-        
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            
+        }
         System.out.printf("%s: %4d%n", "A", map.get("A"));
         System.out.printf("%s: %4d%n", "B", map.get("B"));
         System.out.printf("%s: %4d%n", "C", 9);
