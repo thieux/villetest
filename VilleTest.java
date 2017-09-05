@@ -31,11 +31,15 @@ public class VilleTest {
                 "24\t37\tTours\t136942\n" +
                 "25\t974\tSaint-Denis\t138314\n";
 
-        System.out.println(data);
+        printCityClasses(data);
 
-        System.out.println("A: 1\n" +
+        printCityClasses("A: 1\n" +
                 "B: 1\n" +
                 "C: 9\n" +
                 "D: 14");
+    }
+
+    private void printCityClasses(String x) {
+        System.out.println(x);
     }
 }
