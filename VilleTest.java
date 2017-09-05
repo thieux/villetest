@@ -57,7 +57,10 @@ public class VilleTest {
 
             if (Integer.parseInt(column) > 1_000_000) {
                 Integer a = map.get("A");
+                if (a == null) {
                 map.put("A", a + 1);
+
+                }
             } else if (Integer.parseInt(column) > 500_000) {
                 countB++;
             } else if (Integer.parseInt(column) > 200_000) {
