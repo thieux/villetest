@@ -54,6 +54,9 @@ public class VilleTest {
             if (Integer.parseInt(column) > 1_000_000) {
                 System.out.println("A");
             }
+            if (Integer.parseInt(column) > 1_000_000) {
+                System.out.println("A");
+            }
         }
 
         HashMap<String, Integer> map = new HashMap<>();
