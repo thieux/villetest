@@ -52,8 +52,8 @@ public class VilleTest {
 
             String column = columns[3];
 
-            if (Integer.parseInt(column) > 1_000_000) {
                 String key = "A";
+            if (Integer.parseInt(column) > 1_000_000) {
                 Integer a = map.getOrDefault(key, 0);
                 map.put(key, a + 1);
             } else if (Integer.parseInt(column) > 500_000) {
