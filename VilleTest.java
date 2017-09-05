@@ -46,14 +46,14 @@ public class VilleTest {
         String[] split = data.split("\n");
         System.out.println(Arrays.toString(split));
 
-        int count=0;
+        int countA=0;
         for (String s : split) {
             String[] columns = s.split("\t");
 
             String column = columns[3];
 
             if (Integer.parseInt(column) > 1_000_000) {
-                count++;
+                countA++;
                 System.out.println("A");
             } else if (Integer.parseInt(column) > 500_000) {
                 System.out.println("B");
