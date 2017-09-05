@@ -49,9 +49,7 @@ public class VilleTest {
         HashMap<String, Integer> map = new HashMap<>();
         for (String s : split) {
             String[] columns = s.split("\t");
-
             String column = columns[3];
-
             String key = getCityClass(column);
             Integer a = map.getOrDefault(key, 0);
             map.put(key, a + 1);
