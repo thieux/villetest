@@ -53,6 +53,7 @@ public class VilleTest {
             String column = columns[3];
 
             if (Integer.parseInt(column) > 1_000_000) {
+                count++;
                 System.out.println("A");
             } else if (Integer.parseInt(column) > 500_000) {
                 System.out.println("B");
