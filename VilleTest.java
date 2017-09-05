@@ -67,7 +67,6 @@ public class VilleTest {
             }
         }
 
-        map.put("C", countC);
         map.put("D", countD);
 
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
