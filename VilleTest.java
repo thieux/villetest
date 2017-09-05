@@ -53,8 +53,9 @@ public class VilleTest {
             String column = columns[3];
 
             if (Integer.parseInt(column) > 1_000_000) {
-                Integer a = map.getOrDefault("A", 0);
-                map.put("A", a + 1);
+                String key = "A";
+                Integer a = map.getOrDefault(key, 0);
+                map.put(key, a + 1);
             } else if (Integer.parseInt(column) > 500_000) {
                 Integer a = map.getOrDefault("B", 0);
                 map.put("B", a + 1);
