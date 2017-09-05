@@ -45,7 +45,7 @@ public class VilleTest {
         map.put("A", 1);
         map.put("B", 1);
         System.out.printf("%s: %4d%n", "A", map.get("A"));
-        System.out.printf("%s: %4d%n", "B", map.get("A"));
+        System.out.printf("%s: %4d%n", "B", map.get("B"));
         System.out.printf("%s: %4d%n", "C", 9);
         System.out.printf("%s: %4d%n", "D", 14);
     }
