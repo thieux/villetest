@@ -58,7 +58,7 @@ public class VilleTest {
                 Integer a = map.getOrDefault(key, 0);
                 map.put(key, a + 1);
             } else if (Integer.parseInt(column) > 500_000) {
-                String key = "B";
+                key = "B";
                 Integer a = map.getOrDefault(key, 0);
                 map.put(key, a + 1);
             } else if (Integer.parseInt(column) > 200_000) {
@@ -75,4 +75,5 @@ public class VilleTest {
             System.out.printf("%s: %4d%n", entry.getKey(), map.get(entry.getKey()));
         }
     }
+
 }
