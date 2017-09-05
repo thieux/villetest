@@ -30,5 +30,7 @@ public class VilleTest {
                 "23\t63\tClermont-Ferrand\t138992\n" +
                 "24\t37\tTours\t136942\n" +
                 "25\t974\tSaint-Denis\t138314\n";
+
+        System.out.println(data);
     }
 }
