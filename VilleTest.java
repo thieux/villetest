@@ -2,6 +2,7 @@ package fr.arolla.java8esgi.partiel;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -43,7 +44,7 @@ public class VilleTest {
     private void printCityClasses(String data) {
 
         String[] split = data.split("\n");
-        System.out.println(split);
+        System.out.println(Arrays.toString(split));
 
         HashMap<String, Integer> map = new HashMap<>();
         map.put("A", 1);
