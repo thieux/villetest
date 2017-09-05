@@ -58,6 +58,7 @@ public class VilleTest {
             } else if (Integer.parseInt(column) > 500_000) {
                 countB++;
             } else if (Integer.parseInt(column) > 200_000) {
+                countB++;
                 System.out.println("C");
             } else if (Integer.parseInt(column) > 100_000) {
                 System.out.println("D");
