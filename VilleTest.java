@@ -60,6 +60,7 @@ public class VilleTest {
                 if (a != null) {
                     map.put("A", a + 1);
                 } else {
+                    a=0;
                     map.put("A", a + 1);
                 }
             } else if (Integer.parseInt(column) > 500_000) {
